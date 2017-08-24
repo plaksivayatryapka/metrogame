@@ -9,7 +9,7 @@ from random import randint  # импорт библиотеки для гене�
 import threading  # импорт библиотеки для распараллеливания процессов
 import time  # другая библиотека для времени
 
-token = '439054501:AAHGWlx7NttHQn-2-3oK9E3N7bGqZ4TVK2A'  # MetroGame_bot  # идентфикатор моего бота телеграм
+token = ''  # MetroGame_bot  # идентфикатор моего бота телеграм
 TelegramBot = telepot.Bot(token)
 logfilename = 'logs/metrogame.txt'  # сюда писать лог
 dumpfilename = 'data/metrogame_variables.pickle'  # сюда сохранять переменные
